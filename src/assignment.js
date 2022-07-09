@@ -57,11 +57,11 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @param {Array} arrayOfNumbers the array containing temperatures in Celsius to be converted
  * @returns Array the converted temperatures in Fahrenheit
  */
-function celsiusToFahrenheit(arrayOfNumbers) {
-  return (
-    arrayOfNumbers.map((temp) =>  Math.trunc((temp * 1.8) + 32))
-)}
-assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+// function celsiusToFahrenheit(arrayOfNumbers) {
+//   return (
+//     arrayOfNumbers.map((temp) =>  Math.trunc((temp * 1.8) + 32))
+// )}
+// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
