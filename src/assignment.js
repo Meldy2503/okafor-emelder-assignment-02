@@ -32,16 +32,16 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
-// function countEvenNumbers(arrayOfNumbers) {
-//   let countEvenNumbers = []
-//   arrayOfNumbers.map((list) => {
-//     if (list % 2 === 0) {
-//       countEvenNumbers.push(list)
-//     }
-//   })
-//     return countEvenNumbers.length;
-// }
-// assignment.countEvenNumbers = countEvenNumbers;
+ function countEvenNumbers(arrayOfNumbers) {
+  let countEvenNumbers = []
+  arrayOfNumbers.map((list) => {
+     if (list % 2 === 0) {
+      countEvenNumbers.push(list)
+    }
+  })
+     return countEvenNumbers.length;
+ }
+ assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
